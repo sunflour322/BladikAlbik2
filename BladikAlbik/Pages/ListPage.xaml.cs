@@ -29,7 +29,10 @@ namespace BladikAlbik.Pages
             type.Insert(0, new Types() { ID_type = 0, Name = "Все" });
             TypeCb.ItemsSource = type.ToList();
             TypeCb.DisplayMemberPath = "Name";
-            NameCb.ItemsSource = Connection.BD.Exemplar.ToList();
+
+            var exem = Connection.BD.Exemplar.ToList();
+            exem.Insert(0, new Exemplar() { ID_ex = 0, Name = "Все" });
+            NameCb.ItemsSource = exem.ToList();
             NameCb.DisplayMemberPath = "Name";
         }
 

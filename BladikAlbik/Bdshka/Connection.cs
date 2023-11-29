@@ -8,6 +8,6 @@ namespace BladikAlbik.Bdshka
 {
     internal class Connection
     {
-        public static BladikEntities BD = new BladikEntities();
+        public static BladikEntities1 BD =  new BladikEntities1();
     }
 }

@@ -13,10 +13,10 @@ namespace BladikAlbik.Bdshka
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class BladikEntities : DbContext
+    public partial class BladikEntities1 : DbContext
     {
-        public BladikEntities()
-            : base("name=BladikEntities")
+        public BladikEntities1()
+            : base("name=BladikEntities1")
         {
         }
     
@@ -26,7 +26,6 @@ namespace BladikAlbik.Bdshka
         }
     
         public virtual DbSet<Exemplar> Exemplar { get; set; }
-        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<Types> Types { get; set; }
         public virtual DbSet<Users> Users { get; set; }
     }

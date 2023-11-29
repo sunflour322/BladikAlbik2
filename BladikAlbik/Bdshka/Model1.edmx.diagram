@@ -4,11 +4,10 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="b56a5b22f470409c9957a465ffe15440" Name="Diagram1">
+      <Diagram DiagramId="4989e2e125d4462e997a8d1748916829" Name="Diagram1">
         <EntityTypeShape EntityType="BladikModel.Exemplar" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="BladikModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
         <EntityTypeShape EntityType="BladikModel.Types" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="BladikModel.Users" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BladikModel.Users" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
         <AssociationConnector Association="BladikModel.FK_Exemplar_Type" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
